@@ -25,7 +25,7 @@ body {
   overflow-x: hidden;
 }
 
-/* â”€â”€ NAVBAR â”€â”€ */
+/* ── NAVBAR ── */
 #navbar {
   position: fixed;
   top: 0;
@@ -67,7 +67,7 @@ body {
   color: var(--accent);
 }
 
-/* â”€â”€ HERO â”€â”€ */
+/* ── HERO ── */
 #hero {
   min-height: 100vh;
   display: flex;
@@ -167,7 +167,7 @@ body {
   box-shadow: 0 8px 28px rgba(201,98,47,0.4);
 }
 
-/* â”€â”€ SECTIONS â”€â”€ */
+/* ── SECTIONS ── */
 .section {
   padding: 90px 0;
 }
@@ -201,7 +201,7 @@ body {
   border-radius: 2px;
 }
 
-/* â”€â”€ ABOUT â”€â”€ */
+/* ── ABOUT ── */
 .about-grid {
   display: flex;
   gap: 56px;
@@ -251,7 +251,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* â”€â”€ TIMELINE / CARDS â”€â”€ */
+/* ── TIMELINE / CARDS ── */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -302,7 +302,7 @@ body {
   line-height: 1.7;
 }
 
-/* â”€â”€ SKILLS â”€â”€ */
+/* ── SKILLS ── */
 .skills-columns {
   display: flex;
   gap: 40px;
@@ -344,7 +344,7 @@ body {
   color: white;
 }
 
-/* â”€â”€ ACHIEVEMENTS â”€â”€ */
+/* ── ACHIEVEMENTS ── */
 .ach-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -380,7 +380,7 @@ body {
   line-height: 1.7;
 }
 
-/* â”€â”€ CONTACT â”€â”€ */
+/* ── CONTACT ── */
 .contact-inner {
   text-align: center;
 }
@@ -421,7 +421,7 @@ body {
   color: var(--accent);
 }
 
-/* â”€â”€ FOOTER â”€â”€ */
+/* ── FOOTER ── */
 footer {
   text-align: center;
   padding: 28px;
@@ -431,7 +431,7 @@ footer {
   letter-spacing: 0.5px;
 }
 
-/* â”€â”€ ANIMATIONS â”€â”€ */
+/* ── ANIMATIONS ── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -441,7 +441,7 @@ footer {
   animation: fadeUp 0.8s ease forwards;
 }
 
-/* â”€â”€ RESPONSIVE â”€â”€ */
+/* ── RESPONSIVE ── */
 @media (max-width: 680px) {
   #navbar { padding: 14px 20px; }
   .nav-links { gap: 16px; }
